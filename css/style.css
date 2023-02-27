@@ -1,3 +1,15 @@
+/* RESET */
+img {
+    max-width: 100%;
+}
+/* GENERAL */
+.center {
+    text-align: center;
+}
+.pb20 {
+    padding-bottom: 20px;
+}
+
 /* HEADER */
 header {
     background-color: #2C3E50;
@@ -29,3 +41,16 @@ li {
     }
 }
 /* END HEADER */
+/* START MAIN */
+
+/* JUMBOTRON SECTION */
+.jumbotron {
+    background-color: #1ABC9C;
+    color: white;
+}
+.my_container img {
+    width: 250px;
+}
+.my_container * {
+    padding-bottom: 10px;
+}
