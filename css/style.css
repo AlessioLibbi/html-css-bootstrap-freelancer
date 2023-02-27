@@ -2,6 +2,10 @@
 img {
     max-width: 100%;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
 /* GENERAL */
 .center {
     text-align: center;
@@ -9,7 +13,18 @@ img {
 .pb20 {
     padding-bottom: 20px;
 }
-
+.line {
+    border: 1px solid white;
+    background-color: white;
+    height: 4px;
+    width: 80px;
+}
+.line-black {
+    border: 1px solid black;
+    background-color: black;
+    height: 4px;
+    width: 80px;
+}
 /* HEADER */
 header {
     background-color: #2C3E50;
@@ -54,3 +69,42 @@ li {
 .my_container * {
     padding-bottom: 10px;
 }
+.my_container .line {
+    padding: 0px;
+}
+/* END JUMBOTRON SECTION */
+/* START PORTFOLIO SECTION */
+.portfolio {
+    text-align: center;
+}
+.portfolio img {
+    border-radius: 10px;
+}
+/* END PORTFOLIO SECTION */
+/* START ABOUT SECTION */
+.about {
+    background-color: #1ABC9C;
+    color: white;
+}
+.about-content {
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.about-header {
+    text-align: center;
+}
+.star-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+.button {
+    padding: 10px 20px;
+    border: 1px solid white;
+    display: block;
+    width: 150px;
+}
+/* END ABOUT SECTION */
+/* START CONTACT SECTION */
