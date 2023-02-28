@@ -86,7 +86,7 @@ li {
     background-color: #1ABC9C;
     color: white;
 }
-.about-content {
+.mini-container {
     width: 60%;
     margin: 0 auto;
     
@@ -103,8 +103,58 @@ li {
 .button {
     padding: 10px 20px;
     border: 1px solid white;
-    display: block;
+    display: inline-block;
     width: 150px;
 }
 /* END ABOUT SECTION */
 /* START CONTACT SECTION */
+.contact h3 {
+    text-align: center;
+}
+.form-control {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+}
+
+.form-control:focus {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    box-shadow: none;
+    border-color: inherit;
+}
+.my_button {
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+}
+.my_button:hover {
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+}
+.my_button:active {
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+}
+/* END CONTACT SECTION */
+/* START FOOR */
+.footer {
+    color: white;
+}
+.foot-top {
+    background-color: #3A546D;
+}
+.icons i {
+    border:1px solid white;
+    border-radius:50%;
+    width: 35px;
+    height: 35px;
+}
+.foot-link {
+    color: #1ABC9C;
+}
+
+.footer p {
+    margin: 0px;
+}
